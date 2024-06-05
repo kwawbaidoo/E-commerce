@@ -2,10 +2,10 @@ import iphone from "../assets/images/Apple_gray_logo 1.png";
 import heroPhone from "../assets/images/heroPhone.png";
 const Hero = () => {
   return (
-    <div className="flex pt-10 items-center justify-center">
-      <div className="flex w-full md:max-w-[1170px] xl:max-w-[1170px] justify-between bg-red-300">
-        <div className="flex flex-col">
-          <ul className="flex flex-col pl-4 pr-2 font-light gap-4 font-poppins text-base border border-l-0 border-t-0 border-b-0">
+    <div className="flex pt-8 items-center justify-center">
+      <div className="flex w-full md:max-w-[1170px] xl:max-w-[1170px] justify-between border  relative  ">
+        <div className="flex flex-col  border ">
+          <ul className="flex justify-  flex-col pl- pr-2 font-light gap-4  font-poppins text-base">
             <li className="flex items-center justify-between  w-52">
               <a href="">Woman's Fashion</a>
               <a href="">
@@ -64,9 +64,11 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-black text-white flex flex-col w-[892px] h-[344px] items-center border">
-          <div className="flex bg- w-[892px]  justify- items-center p-16">
-            <div className="flex flex-col w-96 gap-5 border">
+        <div className="h-[3410px] w-px z-50 -bottom-0 left-60 bg-gray-300 absolute"></div>
+
+        <div className="bg-black text-white flex flex-col items-cent justify-center pl-16 w-[892px] h  ">
+          <div className="flex bg- w-[892px]  justify-bet items-center p-">
+            <div className="flex flex-col w-96 gap-5 ">
               <span className="flex items-center gap-3">
                 <img className="w-8" src={iphone} alt="" />
                 <span>iPhone 14 Series</span>
@@ -92,9 +94,15 @@ const Hero = () => {
                 </svg>
               </h4>
             </div>
-            <img className="border w-[400px]" src={heroPhone} alt="" />
+            <img className=" w-[400px]" src={heroPhone} alt="" />
           </div>
-          
+          <div className=" bg-back w-full flex items-center justify-center -mb- gap-3">
+            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
+            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
+            <span className="w-3 h-3 rounded-full bg-red-500 border border-white"></span>
+            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
+            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
+          </div>
         </div>
       </div>
     </div>
