@@ -3,8 +3,8 @@ import heroPhone from "../assets/images/heroPhone.png";
 const Hero = () => {
   return (
     <div className="flex pt-8 items-center justify-center">
-      <div className="flex w-full md:max-w-[1170px] xl:max-w-[1170px] justify-between border  relative  ">
-        <div className="flex flex-col  border ">
+      <div className="flex w-full md:max-w-[1170px] xl:max-w-[1170px] justify-between   relative  ">
+        <div className="flex flex-col h-[310px]   ">
           <ul className="flex justify-  flex-col pl- pr-2 font-light gap-4  font-poppins text-base">
             <li className="flex items-center justify-between  w-52">
               <a href="">Woman's Fashion</a>
@@ -64,11 +64,11 @@ const Hero = () => {
             </li>
           </ul>
         </div>
-        <div className="h-[3410px] w-px z-50 -bottom-0 left-60 bg-gray-300 absolute"></div>
+        <div className="h-[342px] w-px z-50 -bottom-0 left-60 bg-gray-300 absolute"></div>
 
-        <div className="bg-black text-white flex flex-col items-cent justify-center pl-16 w-[892px] h  ">
-          <div className="flex bg- w-[892px]  justify-bet items-center p-">
-            <div className="flex flex-col w-96 gap-5 ">
+        <div className="bg-black text-white flex flex-col justify-between items-center  pt-  w-[892px] h-[310px] ">
+          <div className="flex bg- w-[892px]  justify-between items-center pl-16 pt-10">
+            <div className="flex flex-col w-72 gap-5 mb-12  ">
               <span className="flex items-center gap-3">
                 <img className="w-8" src={iphone} alt="" />
                 <span>iPhone 14 Series</span>
@@ -94,9 +94,9 @@ const Hero = () => {
                 </svg>
               </h4>
             </div>
-            <img className=" w-[400px]" src={heroPhone} alt="" />
+            <img className=" w-[400px]  mr-10 " src={heroPhone} alt="" />
           </div>
-          <div className=" bg-back w-full flex items-center justify-center -mb- gap-3">
+          <div className=" bg-back w-full flex items-center justify-center mb- absolute top-[280px] gap-3">
             <span className="w-3 h-3 rounded-full bg-gray-500"></span>
             <span className="w-3 h-3 rounded-full bg-gray-500"></span>
             <span className="w-3 h-3 rounded-full bg-red-500 border border-white"></span>
@@ -104,6 +104,7 @@ const Hero = () => {
             <span className="w-3 h-3 rounded-full bg-gray-500"></span>
           </div>
         </div>
+        
       </div>
     </div>
   );
