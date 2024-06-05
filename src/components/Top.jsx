@@ -1,6 +1,6 @@
 const Top =()=>{
     return(
-        <div className="bg-black flex items-center justify-center w-full h-12">
+        <div className="bg-black flex items-center justify-center  w-full h-12 pl-[445px] pr-[136px] ">
         <div className="w-full md:max-w-[859px] sm:max-w-96 xl:max-w-[859px] flex justify-between items-center ">
           <span className="flex gap-2">
             <h3 className="text-sm font-normal font-poppins text-white">

@@ -6,12 +6,12 @@ const Navigation = () => {
     <div className="w-full flex items-center justify-center">
       <div className="flex md:max-w-[1170px] xl:max-w-[1170px] border gap-36 items-center">
 
-        <span className="flex justify-between w-full">
-          <h3>Exclusive</h3>
+        <span className="flex gap-48 w-full xl:max-w-[675px] border border-red-400">
+          <h3 className='font-inter font-semibold text-2xl'>Exclusive</h3>
 
-          <ul className="flex gap-12">
+          <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <a href="">Home</a>
+              <a className='' href="">Home</a>
             </li>
             <li>
               <a href="">Contact</a>
@@ -25,16 +25,16 @@ const Navigation = () => {
           </ul>
         </span>
 
-        <div className="flex gap-6">
-          <span className='flex w-52 gap-2 bg-customgray pl-5 pr-3 border'>
-            <input className='bg-customgray' type="text" placeholder='what are you looking for?'/>
+        <div className="flex justify-between w-[347px]">
+          <span className='flex w-52 gap-5 justify-beteen bg-customgray  items-center border'>
+            <input className=' w- py-2 outline-none bg-customgray pl-4 text-xs' type="text" placeholder='what are you looking for?'/>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="size-6"
+              className="size-4"
             >
               <path
                 strokeLinecap="round"
@@ -44,9 +44,9 @@ const Navigation = () => {
             </svg>
           </span>
 
-          <div className='flex gap-4'>
-            <img className='w-6' src={heart} alt="" />
-            <img className='w-6' src={cart} alt="" />
+          <div className='flex gap-6 items-center'>
+            <img className='w-5 h-5' src={heart} alt="" />
+            <img className='w-6 h-6' src={cart} alt="" />
           </div>
         </div>
 
