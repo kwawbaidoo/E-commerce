@@ -3,10 +3,10 @@ import cart from '../assets/images/Cart1.png';
 
 const Navigation = () => {
   return (
-    <div className="w-full flex items-center justify-center">
-      <div className="flex md:max-w-[1170px] xl:max-w-[1170px] border gap-36 items-center">
+    <div className="w-full flex flex-col items-center justify-center mt-10">
+      <div className="flex md:max-w-[1170px] xl:max-w-[1170px]  gap-36 items-center">
 
-        <span className="flex gap-48 w-full xl:max-w-[675px] border border-red-400">
+        <span className="flex gap-48 w-full xl:max-w-[675px] ">
           <h3 className='font-inter font-semibold text-2xl'>Exclusive</h3>
 
           <ul className="flex gap-12 font-poppins text-base items-center">
@@ -26,8 +26,8 @@ const Navigation = () => {
         </span>
 
         <div className="flex justify-between w-[347px]">
-          <span className='flex w-52 gap-5 justify-beteen bg-customgray  items-center border'>
-            <input className=' w- py-2 outline-none bg-customgray pl-4 text-xs' type="text" placeholder='what are you looking for?'/>
+          <span className='flex pl w-52 gap-3 justify-center bg-customgray  items-center '>
+            <input className=' w-40  py-2 outline-none bg-customgray  text-xs font-poppins' type="text" placeholder='what are you looking for?'/>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -51,6 +51,7 @@ const Navigation = () => {
         </div>
 
       </div>
+      <hr className=' w-full mt-4'/>
     </div>
   );
 };
