@@ -2,7 +2,7 @@ import iphone from "../assets/images/Apple_gray_logo 1.png";
 import heroPhone from "../assets/images/heroPhone.png";
 const Hero = () => {
   return (
-    <div className="flex pt-8 items-center justify-center">
+    <div className="flex flex-col pt-8 items-center justify-center">
       <div className="flex w-full md:max-w-[1170px] xl:max-w-[1170px] justify-between   relative  ">
         <div className="flex flex-col h-[310px]   ">
           <ul className="flex justify-  flex-col pl- pr-2 font-light gap-4  font-poppins text-base">
@@ -106,6 +106,7 @@ const Hero = () => {
         </div>
         
       </div>
+        
     </div>
   );
 };
