@@ -11,6 +11,7 @@ export default {
         customred: '#DB4444',
         custometimecolor: '#E07575',
         starColor: '#FFAD33',
+        textgray: '#7D8184',
       },
       fontFamily:{
         poppins:['Poppins'],
