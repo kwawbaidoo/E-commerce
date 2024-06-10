@@ -8,7 +8,8 @@ const Flashsales = () => {
   return (
     <div className="flex justify-center items-center  mt-36">
       <section className="flex ml-36 flex-col gap-10 justify-center w-full xl:max-w-[1308px] md:max-w-[1308px]  ">
-        <div className="flex  xl:max-w-[600px] md:max-w-[600px] justify-between ">
+        <div className="flex items-end justify-between xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
+        <div className="flex  xl:max-w-[600px] md:max-w-[600px] justify-between items-end ">
           <div className="flex flex-col gap-6">
             <span className="flex items-center gap-4">
               <span className="w-5 h-10 bg-customred rounded-md "></span>
@@ -40,8 +41,43 @@ const Flashsales = () => {
               <h3 className="text-3xl font-inter font-bold">56</h3>
             </span>
           </div>
+         
         </div>
-
+        <div className="flex gap-2">
+            <span className=" w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                />
+              </svg>
+            </span>
+            <span className="w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </span>
+          </div>
+          </div>
        <div className="flex gap-7 w-full  md:max-w-[1308px] xl:max-w-[1308px] overflow-clip ">
        <div className="w-[270px] h-[350px]  ">
           <div className=" flex w-[270px] h-[250px] p-3 bg-customgray  justify-center rounded-md">
@@ -555,7 +591,7 @@ const Flashsales = () => {
        <button className="bg-customred rounded-md px-10 py-4 text-white w-[234px] flex items-center justify-center text-base font-poppins font-medium">View all products</button>
 
        </div>
-       <div className="flex items-center justify-center mt-16">
+       <div className="flex w-full items-center mt-16">
         <hr  className="w-[1170px] border "/>
        </div>
       </section>
