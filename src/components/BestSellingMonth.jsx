@@ -3,6 +3,7 @@ import bag from "../assets/images/bag.png";
 import bookshelve from "../assets/images/bookshelve.png";
 import speaker from "../assets/images/speaker.png";
 import heart from "../assets/images/heart.png";
+import boombox from "../assets/images/BOOMBOX 1.png"
 import view from "../assets/images/view.png";
 
 const BestSellingMonth = () => {
@@ -31,13 +32,13 @@ const BestSellingMonth = () => {
         </div>
         <div className="flex gap-7 w-full  md:max-w-[1308px] xl:max-w-[1308px] overflow-clip ">
           <div className="w-[270px] h-[350px]  ">
-            <div className=" flex w-[270px] h-[250px] p-3 bg-customgray   justify-center rounded-md">
+            <div className=" relative flex w-[270px] h-[250px] p-3 bg-customgray   justify-center rounded-md">
               <img
                 className="w-[140px] h-[146px] -ml-5 mt-10  "
                 src={coat}
                 alt=""
               />
-              <span className=" flex flex-col gap-2 absolute left-[580px]">
+              <span className=" flex flex-col gap-2 absolute left-56 top-3 z-100">
                 <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                   <img className="" src={heart} alt="" />
                 </span>
@@ -432,28 +433,37 @@ const BestSellingMonth = () => {
           </div>
         </div>
       </section>
-      <div className="bg-black w-full xl:max-w-[1170PX] md:max-w-[1170px] lg:max-w-[1170px] mt-36">
-        <div className="flex flex-col xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] border">
+      <div className="flex p-16 items-center justify-center gap-6 bg-black w-full xl:max-w-[1170PX] md:max-w-[1170px] lg:max-w-[1170px] mt-36">
+        <div className="flex flex-col  xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] border">
             <h4 className="font-poppins text-base font-semibold text-customgreen">Categories</h4>
-            <h3 className="font-inter font-semibold text-5xl">Enhance Your Music Experience</h3>
-            <div className="flex gap-6">
-                <span className="flex items-center justify-center w-16 h-16 bg-white">
-                    <h4>23</h4>
-                    <h4>Hours</h4>
+            <h3 className="font-inter mt-8 mb-8 leading-[60px] font-semibold text-5xl text-white">Enhance Your Music Experience</h3>
+            <div className="flex gap-6 mb-10">
+                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+                    <h4 className="text-base font-poppins font-semibold">23</h4>
+                    <h4 className="text-xs font-poppins">Hours</h4>
                 </span>
-                <span className="flex items-center justify-center w-16 h-16 bg-white">
-                    <h4>05</h4>
-                    <h4>Days</h4>
+                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+                    <h4 className="text-base font-poppins font-semibold">05</h4>
+                    <h4 className="text-xs font-poppins">Days</h4>
                 </span>
-                <span className="flex items-center justify-center w-16 h-16 bg-white">
-                    <h4>59</h4>
-                    <h4>Minutes</h4>
+                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+                    <h4 className="text-base font-poppins font-semibold">59</h4>
+                    <h4 className="text-xs font-poppins">Minutes</h4>
                 </span>
-                <span className="flex items-center justify-center w-16 h-16 bg-white">
-                    <h4>35</h4>
-                    <h4>Seconds</h4>
+                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+                    <h4 className="text-base font-poppins font-semibold">35</h4>
+                    <h4 className="text-xs font-poppins">Seconds</h4>
                 </span>
             </div>
+            <span className="flex  ">
+                <button className="bg-customgreen text-white text-center text-base px-12 py-4 rounded-md font-inter">Buy Now!</button>
+            </span>
+        </div>
+        <div className=" flex border">
+            <img className=" z-100 w-[568px] h-[330px]" src={boombox} alt="" />
+            <span className="absolute w-[504px] h-[500px] bg-customgray rounded-full -z-50">
+
+            </span>
         </div>
       </div>
     </div>
