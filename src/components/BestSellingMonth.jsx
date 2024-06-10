@@ -434,7 +434,7 @@ const BestSellingMonth = () => {
         </div>
       </section>
       <div className="flex p-16 items-center justify-center gap-6 bg-black w-full xl:max-w-[1170PX] md:max-w-[1170px] lg:max-w-[1170px] mt-36">
-        <div className="flex flex-col  xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] border">
+        <div className="flex flex-col  xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] ">
             <h4 className="font-poppins text-base font-semibold text-customgreen">Categories</h4>
             <h3 className="font-inter mt-8 mb-8 leading-[60px] font-semibold text-5xl text-white">Enhance Your Music Experience</h3>
             <div className="flex gap-6 mb-10">
@@ -459,12 +459,12 @@ const BestSellingMonth = () => {
                 <button className="bg-customgreen text-white text-center text-base px-12 py-4 rounded-md font-inter">Buy Now!</button>
             </span>
         </div>
-        <div className=" flex border">
-            <img className=" z-100 w-[568px] h-[330px]" src={boombox} alt="" />
-            <span className="absolute w-[504px] h-[500px] bg-customgray rounded-full -z-50">
+        <div className=" flex  w-[600px] h-[420px] items-center justify-center">
+            <span className="absolute z-10 w-[304px] h-[300px] blur-[200px] bg-customgray rounded-full"></span>
+            <img className="relative w-[568px] h-[330px] z-20" src={boombox} alt="" />
 
-            </span>
         </div>
+
       </div>
     </div>
   );
