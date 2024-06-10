@@ -433,30 +433,26 @@ const BestSellingMonth = () => {
         </div>
       </section>
       <div className="bg-black w-full xl:max-w-[1170PX] md:max-w-[1170px] lg:max-w-[1170px] mt-36">
-        <div className="flex flex-col border">
-            <h4>Categories</h4>
-            <h3>Enhance Your Music Experience</h3>
-            <div>
-                <span>
+        <div className="flex flex-col xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] border">
+            <h4 className="font-poppins text-base font-semibold text-customgreen">Categories</h4>
+            <h3 className="font-inter font-semibold text-5xl">Enhance Your Music Experience</h3>
+            <div className="flex gap-6">
+                <span className="flex items-center justify-center w-16 h-16 bg-white">
                     <h4>23</h4>
                     <h4>Hours</h4>
                 </span>
-                <span>
+                <span className="flex items-center justify-center w-16 h-16 bg-white">
                     <h4>05</h4>
                     <h4>Days</h4>
                 </span>
-                <span>
+                <span className="flex items-center justify-center w-16 h-16 bg-white">
                     <h4>59</h4>
                     <h4>Minutes</h4>
                 </span>
-                <span>
+                <span className="flex items-center justify-center w-16 h-16 bg-white">
                     <h4>35</h4>
                     <h4>Seconds</h4>
                 </span>
-            </div>
-
-            <div>
-                <img src="" alt="" />
             </div>
         </div>
       </div>
