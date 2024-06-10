@@ -4,6 +4,7 @@ import Top from './components/Top';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Flashsales from './components/Flashsales';
+import Category from './components/Category';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
     <Navigation/>
     <Hero/>
     <Flashsales/>
+    <Category/>
     </div>
   )
 }
