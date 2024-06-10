@@ -9,12 +9,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
     <Top/>
     <Navigation/>
     <Hero/>
     <Flashsales/>
-    </>
+    </div>
   )
 }
 
