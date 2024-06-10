@@ -9,7 +9,7 @@ const Flashsales = () => {
     <div className="flex justify-center items-center  mt-36">
       <section className="flex ml-36 flex-col gap-10 justify-center w-full xl:max-w-[1308px] md:max-w-[1308px]  ">
         <div className="flex items-end justify-between xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
-        <div className="flex  xl:max-w-[600px] md:max-w-[600px] justify-between items-end ">
+        <div className="flex  xl:max-w-[600px] md:max-w-[600px] justify-between gap-[87px] ">
           <div className="flex flex-col gap-6">
             <span className="flex items-center gap-4">
               <span className="w-5 h-10 bg-customred rounded-md "></span>
