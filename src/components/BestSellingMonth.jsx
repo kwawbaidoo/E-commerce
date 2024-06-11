@@ -19,8 +19,7 @@ import perfume from "../assets/images/perfume.png";
 import PS5 from "../assets/images/ps5.png";
 import womanhat from "../assets/images/womanhat.png";
 import curology from "../assets/images/curology.png";
-import ideapad from "../assets/images/ideapad.png"
-
+import ideapad from "../assets/images/ideapad.png";
 
 const BestSellingMonth = () => {
   return (
@@ -556,88 +555,96 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">Breed Dry Dog Food</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  Breed Dry Dog Food
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$100</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $100
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(35)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(35)</span>
                 </span>
               </span>
             </div>
             <div className="flex flex-col w-[270px] h-[322px] gap-4">
               <span className="relative flex flex-col items-center w-[270px] h-[250px] bg-customgray rounded-md">
-                <img className="w-[146px] h-[163px] mt-6" src={camera250d} alt="" />
+                <img
+                  className="w-[146px] h-[163px] mt-6"
+                  src={camera250d}
+                  alt=""
+                />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                     <img className="" src={heart} alt="" />
@@ -646,91 +653,97 @@ const BestSellingMonth = () => {
                     <img src={view} alt="" />
                   </span>
                 </span>
-                <span className="flex absolute bottom-1 w-[270px] h-[41px] items-center justify-center bg-black rounded-bl-md rounded-br-md font-poppins font-medium text-base text-white"> Add to Cart</span>
+                <span className="flex absolute bottom-1 w-[270px] h-[41px] items-center justify-center bg-black rounded-bl-md rounded-br-md font-poppins font-medium text-base text-white">
+                  {" "}
+                  Add to Cart
+                </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">CANON EOS DSLR Camera</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  CANON EOS DSLR Camera
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$100</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $100
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(35)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(35)</span>
                 </span>
               </span>
             </div>
             <div className="flex flex-col w-[270px] h-[322px] gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
-                
                 <img className="w-[190px] h-[180px]" src={ideapad} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
@@ -742,82 +755,86 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">ASUS FHD Gaming Laptop</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  ASUS FHD Gaming Laptop
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$700</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $700
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(325)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(325)</span>
                 </span>
               </span>
             </div>
@@ -834,82 +851,86 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">Curology Product Set </h3>
+                <h3 className="font-poppins font-medium text-base">
+                  Curology Product Set{" "}
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$500</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $500
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(145)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(145)</span>
                 </span>
               </span>
             </div>
@@ -918,10 +939,14 @@ const BestSellingMonth = () => {
           <div className="flex gap-[30px]">
             <div className="flex flex-col w-[270px] h-[322px] gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
-              <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
-              New
-            </h4>
-                <img className="w-[180px] h-[133px]" src={MercedesKids} alt="" />
+                <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
+                  New
+                </h4>
+                <img
+                  className="w-[180px] h-[133px]"
+                  src={MercedesKids}
+                  alt=""
+                />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                     <img className="" src={heart} alt="" />
@@ -932,88 +957,92 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">Kids Electric Car</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  Kids Electric Car
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$960</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $960
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(65)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(65)</span>
                 </span>
                 <span className="flex gap-2">
-                    <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
-                        <span className=" absolute w-3 h-3 rounded-full bg-customred z-10"></span>
-                    </span>
-                    <span className="w-5 h-5 rounded-full bg-customred"></span>
+                  <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
+                    <span className=" absolute w-3 h-3 rounded-full bg-customred z-10"></span>
+                  </span>
+                  <span className="w-5 h-5 rounded-full bg-customred"></span>
                 </span>
               </span>
             </div>
@@ -1030,96 +1059,100 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">Jr. Zoom Soccer Cleats</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  Jr. Zoom Soccer Cleats
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$1160</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $1160
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(35)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(35)</span>
                 </span>
                 <span className="flex gap-2">
-                    <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
-                        <span className=" absolute w-3 h-3 rounded-full bg-customyellow z-10"></span>
-                    </span>
-                    <span className="w-5 h-5 rounded-full bg-customred"></span>
+                  <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
+                    <span className=" absolute w-3 h-3 rounded-full bg-customyellow z-10"></span>
+                  </span>
+                  <span className="w-5 h-5 rounded-full bg-customred"></span>
                 </span>
               </span>
             </div>
             <div className="flex flex-col w-[270px] h-[322px] gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
-              <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
-              New
-            </h4>
+                <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
+                  New
+                </h4>
                 <img className="w-[178px] h-[150px]" src={GP} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
@@ -1131,88 +1164,92 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">GP11 Shooter USB Gamepad</h3>
+                <h3 className="font-poppins font-medium text-base">
+                  GP11 Shooter USB Gamepad
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$660</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $660
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(55)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(55)</span>
                 </span>
                 <span className="flex gap-2">
-                    <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
-                        <span className=" absolute w-3 h-3 rounded-full bg-black z-10"></span>
-                    </span>
-                    <span className="w-5 h-5 rounded-full bg-customred"></span>
+                  <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
+                    <span className=" absolute w-3 h-3 rounded-full bg-black z-10"></span>
+                  </span>
+                  <span className="w-5 h-5 rounded-full bg-customred"></span>
                 </span>
               </span>
             </div>
@@ -1229,125 +1266,232 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3 className="font-poppins font-medium text-base">Quilted Satin Jacket </h3>
+                <h3 className="font-poppins font-medium text-base">
+                  Quilted Satin Jacket{" "}
+                </h3>
                 <span className="flex gap-2">
-                    <h3 className="font-poppins font-medium text-base text-customred">$660</h3>
-                    <span className="flex">
+                  <h3 className="font-poppins font-medium text-base text-customred">
+                    $660
+                  </h3>
+                  <span className="flex">
                     <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#FFAD33"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="#7D8184"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="starColor"
-                  className="size-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                  />
-                </svg>
-                    </span>
-                    <span>(55)</span>
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#FFAD33"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="#7D8184"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="starColor"
+                      className="size-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                      />
+                    </svg>
+                  </span>
+                  <span>(55)</span>
                 </span>
                 <span className="flex gap-2">
-                    <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
-                        <span className=" absolute w-3 h-3 rounded-full bg-forestgreen z-10"></span>
-                    </span>
-                    <span className="w-5 h-5 rounded-full bg-customred"></span>
+                  <span className="w-5 h-5 rounded-full flex items-center justify-center bg-white border-2 border-black p-1">
+                    <span className=" absolute w-3 h-3 rounded-full bg-forestgreen z-10"></span>
+                  </span>
+                  <span className="w-5 h-5 rounded-full bg-customred"></span>
                 </span>
               </span>
             </div>
           </div>
         </div>
         <div className="flex gap-2 items-center justify-center">
-            <button className="flex  rounded-md px-12 py-5 text-white items-center justify-center bg-customred text-bse font-poppins">
-              View All Products
-            </button>
-          </div>
+          <button className="flex  rounded-md px-12 py-5 text-white items-center justify-center bg-customred text-bse font-poppins">
+            View All Products
+          </button>
+        </div>
       </section>
-      <section className="flex flex-col gap-[60px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
-        <div className="flex flex-col gap-5 border"> 
-            <span className="flex items-center gap-4">
-                <span className="w-5 h-10 rounded-md bg-customred"></span>
-                <h3 className="font-poppins font-semibold text-base text-customred">Featured</h3>
-            </span>
-            <h3 className="font-inter font-semibold text-4xl">New Arrival</h3>
+      <section className="flex flex-col gap-[60px]  mt-36 w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
+        <div className="flex flex-col gap-5 ">
+          <span className="flex items-center gap-4">
+            <span className="w-5 h-10 rounded-md bg-customred"></span>
+            <h3 className="font-poppins font-semibold text-base text-customred">
+              Featured
+            </h3>
+          </span>
+          <h3 className="font-inter font-semibold text-4xl">New Arrival</h3>
         </div>
 
         <div className="flex  gap-8">
-            <div className="flex items-end justify-center w-[570px] h-[600px] bg-black rounded-s rounded-e">
-                <img className="  w-[511px] h-[511px]" src={PS5} alt="" />
-                <span className="absolute -ml-64 mb-6 w-full max-w-[242px] flex gap-4 flex-col z-10 text-white">
-                   <span className="flex flex-col gap-4">
-                   <h3 className="font-inter font-semibold text-2xl">PlayStation 5</h3>
-                    <p className="font-poppins text-sm">Black and White version of the PS5 coming out on sale.</p>
-                   </span>
-                    <h3 className="font-poppins font-medium text-base ">Shop Now
-                        <hr className="w-[81px] border-textgray border"/>
-                    </h3>
+          <div className="flex items-end justify-center w-[570px] h-[600px] bg-black rounded-s rounded-e">
+            <img className="  w-[511px] h-[511px]" src={PS5} alt="" />
+            <span className="absolute -ml-64 mb-6 w-full max-w-[242px] flex gap-4 flex-col z-10 text-white">
+              <span className="flex flex-col gap-4">
+                <h3 className="font-inter font-semibold text-2xl">
+                  PlayStation 5
+                </h3>
+                <p className="font-poppins text-sm">
+                  Black and White version of the PS5 coming out on sale.
+                </p>
+              </span>
+              <h3 className="font-poppins font-medium text-base ">
+                Shop Now
+                <hr className="w-[81px] border-textgray " />
+              </h3>
+            </span>
+          </div>
+
+          <div className="flex flex-col gap-8">
+            <div className="flex relative justify-end w-[570px] h-[284px] rounded-[4px] border bg-customblack">
+              <span className="absolute left-6 top-32 z-10  w-full max-w-[242px] flex gap-4 flex-col  text-white">
+                <span className="flex flex-col gap-4">
+                  <h3 className="font-inter font-semibold text-2xl">
+                    Women’s Collections
+                  </h3>
+                  <p className="font-poppins text-sm">
+                    Featured woman collections that give you another vibe.
+                  </p>
                 </span>
+                <h3 className="font-poppins font-medium text-base ">
+                  Shop Now
+                  <hr className="w-[81px] border-textgray " />
+                </h3>
+              </span>
+              <img
+                className="rounded-br-[4px] rounded-tr-[4px]"
+                src={womanhat}
+                alt=""
+              />
+            </div>
+            <div className=" flex gap-[30px]">
+              <div className="flex relative items-center justify-center w-[270px] h-[284px] rounded-[4px] bg-customblack">
+                <span className="absolute z-10 w-[196px] h-[196px] bg-customblur blur-[300px] "></span>
+                <img className=" relative z-20" src={ecospeaker} alt="" />
+                <span className="absolute left-6 top-[170px]  z-30  w-full max-w-[242px] flex gap-2 flex-col  text-white">
+                  <span className="flex flex-col gap-2">
+                    <h3 className="font-inter font-semibold text-2xl">
+                      Speakers
+                    </h3>
+                    <p className="font-poppins font-normal text-sm">
+                      Amazon wireless speakers
+                    </p>
+                  </span>
+                  <h3 className="font-poppins font-medium text-base ">
+                    Shop Now
+                    <hr className="w-[81px] border-textgray " />
+                  </h3>
+                </span>
+              </div>
+              <div className="flex relative items-center justify-center w-[270px] h-[284px] rounded-[4px] bg-customblack">
+                <span className="absolute z-10 w-[196px] h-[196px] bg-customblur blur-[200px] border"></span>
+                <img className="relative z-20" src={perfume} alt="" />
+                <span className="absolute left-6 top-[170px]  z-30  w-full max-w-[242px] flex gap-2 flex-col  text-white">
+                  <span className="flex flex-col gap-2">
+                    <h3 className="font-inter font-semibold text-2xl">
+                      Perfume
+                    </h3>
+                    <p className="font-poppins font-normal text-sm">
+                      GUCCI INTENSE OUD EDP
+                    </p>
+                  </span>
+                  <h3 className="font-poppins font-medium text-base ">
+                    Shop Now
+                    <hr className="w-[81px] border-textgray " />
+                  </h3>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="mt-32 flex items-center justify-center">
+        <div className="flex gap-[88px]  w-[943px] ">
+            <div className="flex items-center justify-center flex-col gap-6 ">
+                <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+                    <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
+                        <img className="w-10 h-10 rounded-full" src={iconDelivery} alt="" />
+                    </span>
+                </span>
+                <div className="flex flex-col gap-2 items-center justify-center">
+                    <h3 className="font-poppins font-semibold text-xl">FREE AND FAST DELIVERY</h3>
+                    <h3 className="font-poppins font-normal text-sm">Free delivery for all orders over $140</h3>
+                </div>
+            </div>
+            <div className="flex items-center justify-center flex-col gap-6">
+                <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+                    <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
+                        <img className="w-10 h-10 rounded-full" src={iconCustomerService} alt="" />
+                    </span>
+                </span>
+                <div className="flex flex-col gap-2 items-center justify-center">
+                    <h3 className="font-poppins font-semibold text-xl">24/7 CUSTOMER SERVICE</h3>
+                    <h3 className="font-poppins font-normal text-sm">Friendly 24/7 customer support</h3>
+                </div>
+            </div>
+            <div className="flex items-center justify-center flex-col gap-6 ">
+                <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
+                    <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
+                        <img className="w-10 h-10 rounded-full" src={iconSecure} alt="" />
+                    </span>
+                </span>
+                <div className="flex flex-col items-center justify-center gap-2">
+                    <h3 className="font-poppins font-semibold text-xl">MONEY BACK GUARANTEE</h3>
+                    <h3 className="font-poppins font-normal text-sm">We reurn money within 30 days</h3>
+                </div>
             </div>
 
-            <div>
-                
-            </div>
         </div>
       </section>
     </div>
