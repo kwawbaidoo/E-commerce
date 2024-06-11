@@ -3,7 +3,7 @@ import bag from "../assets/images/bag.png";
 import bookshelve from "../assets/images/bookshelve.png";
 import speaker from "../assets/images/speaker.png";
 import heart from "../assets/images/heart.png";
-import boombox from "../assets/images/BOOMBOX 1.png"
+import boombox from "../assets/images/BOOMBOX 1.png";
 import view from "../assets/images/view.png";
 
 const BestSellingMonth = () => {
@@ -435,37 +435,122 @@ const BestSellingMonth = () => {
       </section>
       <div className="flex p-16 items-center justify-center gap-6 bg-black w-full xl:max-w-[1170PX] md:max-w-[1170px] lg:max-w-[1170px] mt-36">
         <div className="flex flex-col  xl:max-w-[443px] md:max-w-[443px] lg:max-w-[443px] ">
-            <h4 className="font-poppins text-base font-semibold text-customgreen">Categories</h4>
-            <h3 className="font-inter mt-8 mb-8 leading-[60px] font-semibold text-5xl text-white">Enhance Your Music Experience</h3>
-            <div className="flex gap-6 mb-10">
-                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
-                    <h4 className="text-base font-poppins font-semibold">23</h4>
-                    <h4 className="text-xs font-poppins">Hours</h4>
-                </span>
-                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
-                    <h4 className="text-base font-poppins font-semibold">05</h4>
-                    <h4 className="text-xs font-poppins">Days</h4>
-                </span>
-                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
-                    <h4 className="text-base font-poppins font-semibold">59</h4>
-                    <h4 className="text-xs font-poppins">Minutes</h4>
-                </span>
-                <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
-                    <h4 className="text-base font-poppins font-semibold">35</h4>
-                    <h4 className="text-xs font-poppins">Seconds</h4>
-                </span>
-            </div>
-            <span className="flex  ">
-                <button className="bg-customgreen text-white text-center text-base px-12 py-4 rounded-md font-inter">Buy Now!</button>
+          <h4 className="font-poppins text-base font-semibold text-customgreen">
+            Categories
+          </h4>
+          <h3 className="font-inter mt-8 mb-8 leading-[60px] font-semibold text-5xl text-white">
+            Enhance Your Music Experience
+          </h3>
+          <div className="flex gap-6 mb-10">
+            <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+              <h4 className="text-base font-poppins font-semibold">23</h4>
+              <h4 className="text-[11px] font-poppins">Hours</h4>
             </span>
+            <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+              <h4 className="text-base font-poppins font-semibold">05</h4>
+              <h4 className="text-[11px] font-poppins">Days</h4>
+            </span>
+            <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+              <h4 className="text-base font-poppins font-semibold">59</h4>
+              <h4 className="text-[11px] font-poppins">Minutes</h4>
+            </span>
+            <span className="flex flex-col items-center justify-center w-16 h-16 bg-white rounded-full">
+              <h4 className="text-base font-poppins font-semibold">35</h4>
+              <h4 className="text-[11px] font-poppins">Seconds</h4>
+            </span>
+          </div>
+          <span className="flex  ">
+            <button className="bg-customgreen text-white text-center text-base px-12 py-4 rounded-md font-inter">
+              Buy Now!
+            </button>
+          </span>
         </div>
         <div className=" flex  w-[600px] h-[420px] items-center justify-center">
-            <span className="absolute z-10 w-[304px] h-[300px] blur-[200px] bg-customgray rounded-full"></span>
-            <img className="relative w-[568px] h-[330px] z-20" src={boombox} alt="" />
+          <span className="absolute z-10 w-[304px] h-[300px] blur-[200px] bg-customgray rounded-full"></span>
+          <img
+            className="relative w-[568px] h-[330px] z-20"
+            src={boombox}
+            alt=""
+          />
+        </div>
+      </div>
 
+      <section className="flex flex-col w-full mt-[71px] md:max-w-[1170px] xl:max-w-[1170px] lg:max-w-[1170px]">
+        <div className="flex justify-between items-end border">
+          <div className="flex flex-col gap-5">
+            <span className="flex items-center gap-4 border">
+              <span className="w-5 h-10 rounded-md bg-customred"></span>
+              <h3 className="font-poppins text-base font-semibold text-customred">
+                Our Products
+              </h3>
+            </span>
+            <h3 className="font-inter font-semibold text-4xl">
+              Explore Our Products{" "}
+            </h3>
+          </div>
+
+          <div className="flex gap-2">
+            <span className="flex items-center justify-center w-12 h-12 rounded-full bg-customgray">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                />
+              </svg>
+            </span>
+            <span className="flex items-center justify-center w-12 h-12 rounded-full bg-customgray">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="size-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
 
-      </div>
+        <div className="flex flex-col gap-[60px]">
+          <div className="flex gap-[30px]">
+            <div className="flex flex-col w-[270px] h-[322px]">
+              <span className="flex w-[270px] h-[250px] bg-customgray rounded-md">
+                <img src="" alt="" />
+                <span className=" flex flex-col gap-2 absolute left-56 top-3">
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img className="" src={heart} alt="" />
+                  </span>
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img src={view} alt="" />
+                  </span>
+                </span>
+              </span>
+              <span className="flex flex-col gap-2">
+                <h3>Breed Dry Dog Food</h3>
+                <span className="flex gap-2">
+                    <h3>$100</h3>
+                    <span></span>
+                    <span>(35)</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
