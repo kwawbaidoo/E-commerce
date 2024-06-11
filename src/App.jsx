@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Flashsales from './components/Flashsales';
 import Category from './components/Category';
 import BestSellingMonth from './components/BestSellingMonth';
+import Footer from './components/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
     <Flashsales/>
     <Category/>
     <BestSellingMonth/>
+    <Footer/>
     </div>
   )
 }
