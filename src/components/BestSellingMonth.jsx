@@ -5,6 +5,22 @@ import speaker from "../assets/images/speaker.png";
 import heart from "../assets/images/heart.png";
 import boombox from "../assets/images/BOOMBOX 1.png";
 import view from "../assets/images/view.png";
+import dogfood from "../assets/images/dogfood.png";
+import copaSense from "../assets/images/CopaSense 1.png";
+import ecospeaker from "../assets/images/ecospeaker.png";
+import GP from "../assets/images/GP.png";
+import greencoat from "../assets/images/greencoat.png";
+import camera250d from "../assets/images/camera250d.png";
+import iconCustomerService from "../assets/images/Icon-Customer service.png";
+import iconSecure from "../assets/images/Icon-secure.png";
+import iconDelivery from "../assets/images/icon-delivery.png";
+import MercedesKids from "../assets/images/MercedesKids.png";
+import perfume from "../assets/images/perfume.png";
+import PS5 from "../assets/images/ps5.png";
+import womanhat from "../assets/images/womanhat.png";
+import curology from "../assets/images/curology.png";
+import ideapad from "../assets/images/ideapad.png"
+
 
 const BestSellingMonth = () => {
   return (
@@ -475,7 +491,7 @@ const BestSellingMonth = () => {
         </div>
       </div>
 
-      <section className="flex flex-col w-full mt-[71px] md:max-w-[1170px] xl:max-w-[1170px] lg:max-w-[1170px]">
+      <section className="flex gap-[60px] flex-col w-full mt-[71px] md:max-w-[1170px] xl:max-w-[1170px] lg:max-w-[1170px]">
         <div className="flex justify-between items-end border">
           <div className="flex flex-col gap-5">
             <span className="flex items-center gap-4 border">
@@ -527,9 +543,9 @@ const BestSellingMonth = () => {
 
         <div className="flex flex-col gap-[60px]">
           <div className="flex gap-[30px]">
-            <div className="flex flex-col w-[270px] h-[322px]">
-              <span className="flex w-[270px] h-[250px] bg-customgray rounded-md">
-                <img src="" alt="" />
+            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+              <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
+                <img className="w-[115px] h-[180px]" src={dogfood} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
                     <img className="" src={heart} alt="" />
@@ -540,11 +556,359 @@ const BestSellingMonth = () => {
                 </span>
               </span>
               <span className="flex flex-col gap-2">
-                <h3>Breed Dry Dog Food</h3>
+                <h3 className="font-poppins font-medium text-base">Breed Dry Dog Food</h3>
                 <span className="flex gap-2">
-                    <h3>$100</h3>
-                    <span></span>
+                    <h3 className="font-poppins font-medium text-base text-customred">$100</h3>
+                    <span className="flex">
+                    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#7D8184"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#7D8184"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                    </span>
                     <span>(35)</span>
+                </span>
+              </span>
+            </div>
+            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+              <span className="relative flex flex-col items-center w-[270px] h-[250px] bg-customgray rounded-md">
+                <img className="w-[146px] h-[163px] mt-8" src={camera250d} alt="" />
+                <span className=" flex flex-col gap-2 absolute left-56 top-3">
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img className="" src={heart} alt="" />
+                  </span>
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img src={view} alt="" />
+                  </span>
+                </span>
+                <span className="flex absolute bottom-1 w-[270px] h-[41px] items-center justify-center bg-black rounded-bl-md rounded-br-md font-poppins font-medium text-base text-white"> Add to Cart</span>
+              </span>
+              <span className="flex flex-col gap-2">
+                <h3 className="font-poppins font-medium text-base">CANON EOS DSLR Camera</h3>
+                <span className="flex gap-2">
+                    <h3 className="font-poppins font-medium text-base text-customred">$100</h3>
+                    <span className="flex">
+                    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#7D8184"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                    </span>
+                    <span>(35)</span>
+                </span>
+              </span>
+            </div>
+            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+              <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
+                <img className="w-[190px] h-[180px]" src={ideapad} alt="" />
+                <span className=" flex flex-col gap-2 absolute left-56 top-3">
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img className="" src={heart} alt="" />
+                  </span>
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img src={view} alt="" />
+                  </span>
+                </span>
+              </span>
+              <span className="flex flex-col gap-2">
+                <h3 className="font-poppins font-medium text-base">ASUS FHD Gaming Laptop</h3>
+                <span className="flex gap-2">
+                    <h3 className="font-poppins font-medium text-base text-customred">$700</h3>
+                    <span className="flex">
+                    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                    </span>
+                    <span>(325)</span>
+                </span>
+              </span>
+            </div>
+            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+              <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
+                <img className="w-[172px] h-[159px]" src={curology} alt="" />
+                <span className=" flex flex-col gap-2 absolute left-56 top-3">
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img className="" src={heart} alt="" />
+                  </span>
+                  <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
+                    <img src={view} alt="" />
+                  </span>
+                </span>
+              </span>
+              <span className="flex flex-col gap-2">
+                <h3 className="font-poppins font-medium text-base">Curology Product Set </h3>
+                <span className="flex gap-2">
+                    <h3 className="font-poppins font-medium text-base text-customred">$500</h3>
+                    <span className="flex">
+                    <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#FFAD33"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="#7D8184"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="starColor"
+                  className="size-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                  />
+                </svg>
+                    </span>
+                    <span>(145)</span>
                 </span>
               </span>
             </div>
