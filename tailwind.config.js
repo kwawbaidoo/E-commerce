@@ -13,6 +13,8 @@ export default {
         starColor: '#FFAD33',
         textgray: '#7D8184',
         customgreen: '#00FF66',
+        customyellow:'#EEFF61',
+        forestgreen: '#184A48',
       },
       fontFamily:{
         poppins:['Poppins'],
