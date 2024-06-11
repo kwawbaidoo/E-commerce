@@ -1,9 +1,15 @@
-impo
+import AppStore from "../assets/icons/AppStore.png";
+import GooglePlay from "../assets/icons/GooglePlay.png";
+import IconFacebook from "../assets/icons/Icon-Facebook.png";
+import iconInstagram from "../assets/icons/icon-instagram.png";
+import IconLinkedin from "../assets/icons/Icon-Linkedin.png";
+import IconTwitter from "../assets/icons/Icon-Twitter.png";
+import Qrcode from "../assets/icons/Qrcode.png";
 
 const Footer = () => {
   return (
-    <div className="flex bg-customblack px-[135px] py-20">
-      <div className="flex gap-[87px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
+    <div className="flex bg-customblack px-[135px] py-20 items-center justify-center mt-40">
+      <div className="flex gap-[87px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px] border">
         <div className="flex flex-col max-w-[217px] gap-4 text-white">
           <span className="flex flex-col gap-6">
             <h3 className="font-inter text-2xl font-bold">Exclusive</h3>
@@ -61,13 +67,23 @@ const Footer = () => {
                 </span>
             </span>
         </div>
-        <div className="flex flex-col max-w-[217px] gap-6 text-white">
+        <div className="flex flex-col w-[400px]  gap-6 text-white border">
             <h3 className="font-poppins text-xl font-semibold">Download App</h3>
-            <span className="flex flex-col gap-4 font-poppins font-normal text-base">
-                <h3>Privacy Policy</h3>
-                <h3>Terms Of Use</h3>
-                <h3>FAQ</h3>
-                <h3>Contact</h3>
+            <span className="flex flex-col gap-4 ">
+                <h3 className="font-poppins font-normal text-xs">Save $3 with App New User Only</h3>
+                <span className="flex gap-2">
+                    <img src={Qrcode} alt="" />
+                    <span className="flex flex-col">
+                        <img src={GooglePlay} alt="" />
+                        <img src={AppStore} alt="" />
+                    </span>
+                </span>
+            </span>
+            <span className="flex gap-6">
+                <img src={IconFacebook} alt="" />
+                <img src={IconTwitter} alt="" />
+                <img src={iconInstagram} alt="" />
+                <img src={IconLinkedin} alt="" />
             </span>
         </div>
       </div>
