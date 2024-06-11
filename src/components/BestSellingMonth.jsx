@@ -1316,6 +1316,39 @@ const BestSellingMonth = () => {
             </div>
           </div>
         </div>
+        <div className="flex gap-2 items-center justify-center">
+            <button className="flex  rounded-md px-12 py-5 text-white items-center justify-center bg-customred text-bse font-poppins">
+              View All Products
+            </button>
+          </div>
+      </section>
+      <section className="flex flex-col gap-[60px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]">
+        <div className="flex flex-col gap-5 border"> 
+            <span className="flex items-center gap-4">
+                <span className="w-5 h-10 rounded-md bg-customred"></span>
+                <h3 className="font-poppins font-semibold text-base text-customred">Featured</h3>
+            </span>
+            <h3 className="font-inter font-semibold text-4xl">New Arrival</h3>
+        </div>
+
+        <div className="flex  gap-8">
+            <div className="flex items-end justify-center w-[570px] h-[600px] bg-black rounded-s rounded-e">
+                <img className="  w-[511px] h-[511px]" src={PS5} alt="" />
+                <span className="absolute -ml-64 mb-6 w-full max-w-[242px] flex gap-4 flex-col z-10 text-white">
+                   <span className="flex flex-col gap-4">
+                   <h3 className="font-inter font-semibold text-2xl">PlayStation 5</h3>
+                    <p className="font-poppins text-sm">Black and White version of the PS5 coming out on sale.</p>
+                   </span>
+                    <h3 className="font-poppins font-medium text-base ">Shop Now
+                        <hr className="w-[81px] border-textgray border"/>
+                    </h3>
+                </span>
+            </div>
+
+            <div>
+                
+            </div>
+        </div>
       </section>
     </div>
   );
