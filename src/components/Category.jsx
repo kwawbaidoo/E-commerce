@@ -4,6 +4,7 @@ import computer from "../assets/images/Computer.png";
 import gamePad from "../assets/images/Gamepadd.png";
 import smartwatch from "../assets/images/SmartWatch.png";
 import headphone from "../assets/images/Headphone.png";
+import smartWatch from "../assets/smart-watch.svg";
 
 const Category = () => {
   return (
@@ -100,7 +101,8 @@ const Category = () => {
           </a>
           <a href="">
             <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
-              <img src={smartwatch} alt="" />
+            <div class="icons8-smart-watch"></div>
+              
               <span>SmartWatch</span>
             </div>
           </a>
