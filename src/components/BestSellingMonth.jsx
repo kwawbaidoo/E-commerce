@@ -475,7 +475,7 @@ const BestSellingMonth = () => {
             </span>
           </div>
           <span className="flex  ">
-            <button className="bg-customgreen text-white text-center text-base px-12 py-4 rounded-md font-inter">
+            <button className="bg-customgreen hover:bg-red-400 text-white text-center text-base px-12 py-4 rounded-md font-inter">
               Buy Now!
             </button>
           </span>
