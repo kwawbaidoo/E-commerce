@@ -56,28 +56,29 @@ const Category = () => {
             </span>
           </div>
         </div>
+
         <div className=" flex gap-8">
-          <div className="flex gap-4 items-center justify-center flex-col w-44 h-36 rounded-md border">
-            <img src={phone} alt="" />
+          <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
+            <img className="" src={phone} alt="" />
             <span>Phones</span>
           </div>
-          <div className="flex gap-4 items-center justify-center flex-col w-44 h-36 rounded-md border">
+          <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
             <img src={computer} alt="" />
             <span>Computers</span>
           </div>
-          <div className="flex gap-4 items-center justify-center flex-col w-44 h-36 rounded-md border">
+          <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
             <img src={smartwatch} alt="" />
             <span>SmartWatch</span>
           </div>
-          <div className="flex text-white gap-4 items-center justify-center flex-col w-44 h-36 rounded-md bg-customred border">
+          <div className="flex text-white gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md bg-customred border">
             <img src={camera} alt="" />
             <span>Camera</span>
           </div>
-          <div className="flex gap-4 items-center justify-center flex-col w-44 h-36 rounded-md border">
+          <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
             <img src={headphone} alt="" />
             <span>HeadPhones</span>
           </div>
-          <div className="flex gap-4 items-center justify-center flex-col w-44 h-36 rounded-md border">
+          <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
             <img src={gamePad} alt="" />
             <span>Gaming</span>
           </div>

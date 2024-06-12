@@ -40,7 +40,7 @@ const BestSellingMonth = () => {
             </div>
           </div>
           <div className="flex gap-2">
-            <button className="flex w-40 rounded-md h-14 text-white items-center justify-center bg-customred text-bse font-poppins">
+            <button className="flex w-40 hover:bg-red-400 rounded-md h-14 text-white items-center justify-center bg-customred text-bse font-poppins">
               View All
             </button>
           </div>

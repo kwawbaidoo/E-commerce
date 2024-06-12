@@ -9,16 +9,16 @@ import Qrcode from "../assets/icons/Qrcode.png";
 const Footer = () => {
   return (
     <div className="flex bg-customblack px-[135px] py-20 items-center justify-center mt-40">
-      <div className="flex gap-[87px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px] border">
-        <div className="flex flex-col max-w-[217px] gap-4 text-white">
+      <div className="flex gap-[87px] w-full xl:max-w-[1170px] md:max-w-[1170px] lg:max-w-[1170px]  ">
+        <div className="flex flex-col max-w-[217px] gap-4 text-white ">
           <span className="flex flex-col gap-6">
             <h3 className="font-inter text-2xl font-bold">Exclusive</h3>
-            <h3 className="text-xl font-poppins font-normal ">Subscribe</h3>
-            <h3 className="text-base font-poppins font-normal"> Get 10% off your first order</h3>
+            <h3 className="text-xl font-poppins font-light ">Subscribe</h3>
+            <h3 className="text-base font-poppins font-light"> Get 10% off your first order</h3>
           </span>
           <span className="flex w-[217px] h-12 text-customgray border rounded-[4px] items-center gap-8 pl-4 py-3">
             <input
-              className="w-[130px] h-6 bg-transparent"
+              className="w-[130px] h-6 bg-transparent text-base font-poppins font-light"
               type="text"
               placeholder="Enter your email"
             />
@@ -38,44 +38,45 @@ const Footer = () => {
             </svg>
           </span>
         </div>
-        <div className="flex flex-col max-w-[217px] gap-4 text-white">
+        <div className="flex flex-col w-[175px] gap-4 text-white ">
             <h3 className="font-poppins text-xl font-semibold">Support</h3>
-            <span className="flex flex-col gap-4 font-poppins font-normal text-base">
+            <span className="flex flex-col gap-4 font-poppins font-light text-base">
                 <h3>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</h3>
                 <h3>exclusive@gmail.com</h3>
                 <h3>+88015-88888-9999</h3>
             </span>
         </div>
-        <div className="flex flex-col max-w-[217px] gap-6 text-white">
+        <div className="flex flex-col w-[130px] gap-6 text-white ">
             <h3 className="font-poppins text-xl font-semibold">Account</h3>
-            <span className="flex flex-col gap-4 font-poppins font-normal text-base">
+            <span className="flex flex-col gap-4 font-poppins font-light text-base">
                 <h3>My Account</h3>
+                <h3>Login / Register</h3>
                 <h3>Cart</h3>
                 <h3>Wishlist</h3>
                 <h3>Shop</h3>
             </span>
         </div>
-        <div className="flex flex-col max-w-[217px] gap-6 text-white">
+        <div className="flex flex-col w-[109px]  gap-6 text-white ">
             
             <span className="flex flex-col gap-6 font-poppins font-normal text-base">
             <h3 className="font-poppins text-xl font-semibold">Quick Link</h3>
-                <span className="flex flex-col gap-2">
-                <h3>Save $3 with App New User Only</h3>
-                <span>
-                    <img src="" alt="" />
-                </span>
+                <span className="flex flex-col text-base font-poppins font-light gap-2">
+                <h3>Privacy Policy</h3>
+                <h3>Terms Of Use</h3>
+                <h3>FAQ</h3>
+                <h3>Contact</h3>
                 </span>
             </span>
         </div>
-        <div className="flex flex-col w-[400px]  gap-6 text-white border">
+        <div className="flex flex-col w-[198px]  gap-6 text-white ">
             <h3 className="font-poppins text-xl font-semibold">Download App</h3>
             <span className="flex flex-col gap-4 ">
                 <h3 className="font-poppins font-normal text-xs">Save $3 with App New User Only</h3>
                 <span className="flex gap-2">
-                    <img src={Qrcode} alt="" />
+                    <img className="w-[76px] h-[76px]" src={Qrcode} alt="" />
                     <span className="flex flex-col">
-                        <img src={GooglePlay} alt="" />
-                        <img src={AppStore} alt="" />
+                        <img className="w-[110px] h-10" src={GooglePlay} alt="" />
+                        <img className="w-[110px] h-10"  src={AppStore} alt="" />
                     </span>
                 </span>
             </span>

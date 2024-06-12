@@ -588,7 +588,7 @@ const Flashsales = () => {
 
        </div>
        <div className="flex items-center justify-center mt-16">
-       <button className="bg-customred rounded-md px-10 py-4 text-white w-[234px] flex items-center justify-center text-base font-poppins font-medium">View all products</button>
+       <button className="bg-customred hover:bg-red-400 rounded-md px-10 py-4 text-white w-[234px] flex items-center justify-center text-base font-poppins font-medium">View all products</button>
 
        </div>
        <div className="flex w-full items-center mt-16">

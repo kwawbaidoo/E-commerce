@@ -11,16 +11,16 @@ const Navigation = () => {
 
           <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <a className='' href="">Home</a>
+              <a className="hover:underline" href="">Home</a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a className="hover:underline" href="">Contact</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a className='hover:underline' href="">About</a>
             </li>
             <li>
-              <a href="">Sign Up</a>
+              <a className='hover:underline' href="">Sign Up</a>
             </li>
           </ul>
         </span>
@@ -45,8 +45,8 @@ const Navigation = () => {
           </span>
 
           <div className='flex gap-6 items-center'>
-            <img className='w-5 h-5' src={heart} alt="" />
-            <img className='w-6 h-6' src={cart} alt="" />
+            <a className='hover:bg-red-100 p-1 rounded-sm' href=""><img className='w-5 h-5' src={heart} alt="" /></a>
+            <a href=""><img className='w-6 h-6' src={cart} alt="" /></a>
           </div>
         </div>
 
