@@ -97,11 +97,11 @@ const Hero = () => {
             <img className=" w-[400px]  mr-10 " src={heroPhone} alt="" />
           </div>
           <div className=" bg-back w-full flex items-center justify-center mb- absolute top-[280px] gap-3">
-            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
-            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
-            <span className="w-3 h-3 rounded-full bg-red-500 border border-white"></span>
-            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
-            <span className="w-3 h-3 rounded-full bg-gray-500"></span>
+            <a className="w-3 h-3 rounded-full bg-gray-500 hover:bg-customred hover:border hover:border-white" href=""><span ></span></a>
+            <a className="w-3 h-3 rounded-full bg-gray-500 hover:bg-customred hover:border hover:border-white" href=""><span ></span></a>
+            <a className="w-3 h-3 rounded-full bg-red-500 border border-white" href=""><span ></span></a>
+            <a className="w-3 h-3 rounded-full bg-gray-500 hover:bg-customred hover:border hover:border-white" href=""><span ></span></a>
+            <a className="w-3 h-3 rounded-full bg-gray-500 hover:bg-customred hover:border hover:border-white" href=""><span ></span></a>
           </div>
         </div>
         

@@ -23,7 +23,7 @@ const Category = () => {
             </h3>
           </div>
           <div className="flex gap-2">
-            <span className=" w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+            <span className=" w-12 h-12 hover:bg-customred hover:text-white cursor-pointer rounded-full flex items-center justify-center bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -39,7 +39,7 @@ const Category = () => {
                 />
               </svg>
             </span>
-            <span className="w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+            <span className="w-12 h-12 hover:bg-customred hover:text-white  rounded-full flex items-center justify-center bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -101,7 +101,7 @@ const Category = () => {
           </a>
           <a href="">
             <div className="flex gap-4 hover:bg-customred hover:text-white items-center justify-center flex-col w-44 h-36 rounded-md border">
-            <div class="icons8-smart-watch"></div>
+              <img className="w-14 stroke-red-300" src={smartWatch} alt="" />
               
               <span>SmartWatch</span>
             </div>

@@ -46,7 +46,7 @@ const BestSellingMonth = () => {
           </div>
         </div>
         <div className="flex gap-7 w-full  md:max-w-[1308px] xl:max-w-[1308px] overflow-clip ">
-          <div className="w-[270px] h-[350px]  ">
+          <div className="w-[270px] h-[350px]  cursor-pointer ">
             <div className=" relative flex w-[270px] h-[250px] p-3 bg-customgray   justify-center rounded-md">
               <img
                 className="w-[140px] h-[146px] -ml-5 mt-10  "
@@ -149,7 +149,7 @@ const BestSellingMonth = () => {
               </span>
             </div>
           </div>
-          <div className="w-[270px] h-[350px]  ">
+          <div className="w-[270px] h-[350px] cursor-pointer  ">
             <div className="relative flex w-[270px] h-[250px] p-3 bg-customgray items-center   justify-center rounded-md">
               <img className="w-[178px] h-[129px]  " src={bag} alt="" />
               <span className=" flex flex-col gap-2 absolute left-56 top-3">
@@ -248,7 +248,7 @@ const BestSellingMonth = () => {
               </span>
             </div>
           </div>
-          <div className="w-[270px] h-[350px]  ">
+          <div className="w-[270px] h-[350px] cursor-pointer  ">
             <div className=" relative flex w-[270px] h-[250px] p-3 bg-customgray  items-center  justify-center rounded-md">
               <img className="w-[191px] h-[95px]  " src={speaker} alt="" />
               <span className=" flex flex-col gap-2 absolute left-56 top-3 z-100">
@@ -347,7 +347,7 @@ const BestSellingMonth = () => {
               </span>
             </div>
           </div>
-          <div className="w-[270px] h-[350px]  ">
+          <div className="w-[270px] h-[350px] cursor-pointer ">
             <div className="relative flex w-[270px] h-[250px] p-3 bg-customgray items-center  justify-center rounded-md">
               <img className="w-[140px] h-[176px] " src={bookshelve} alt="" />
               <span className=" flex flex-col gap-2 absolute left-56 top-3">
@@ -505,7 +505,7 @@ const BestSellingMonth = () => {
           </div>
 
           <div className="flex gap-2">
-            <span className="flex items-center justify-center w-12 h-12 rounded-full bg-customgray">
+            <span className="flex items-center justify-center w-12 h-12 cursor-pointer hover:bg-customred hover:text-white rounded-full bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -521,7 +521,7 @@ const BestSellingMonth = () => {
                 />
               </svg>
             </span>
-            <span className="flex items-center justify-center w-12 h-12 rounded-full bg-customgray">
+            <span className="flex items-center justify-center w-12 h-12 cursor-pointer hover:bg-customred hover:text-white rounded-full bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -542,7 +542,7 @@ const BestSellingMonth = () => {
 
         <div className="flex flex-col gap-[60px]">
           <div className="flex gap-[30px]">
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <img className="w-[115px] h-[180px]" src={dogfood} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
@@ -638,7 +638,7 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex flex-col items-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <img
                   className="w-[146px] h-[163px] mt-6"
@@ -653,7 +653,7 @@ const BestSellingMonth = () => {
                     <img src={view} alt="" />
                   </span>
                 </span>
-                <span className="flex absolute bottom-1 w-[270px] h-[41px] items-center justify-center bg-black rounded-bl-md rounded-br-md font-poppins font-medium text-base text-white">
+                <span className="flex hover:bg-customred hover:text-white absolute bottom-1 w-[270px] h-[41px] items-center justify-center bg-black rounded-bl-md rounded-br-md font-poppins font-medium text-base text-white">
                   {" "}
                   Add to Cart
                 </span>
@@ -742,8 +742,9 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
+
             <div className="flex flex-col w-[270px] h-[322px] gap-4">
-              <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
+              <span className="relative flex items-center justify-center cursor-pointer w-[270px] h-[250px] bg-customgray rounded-md">
                 <img className="w-[190px] h-[180px]" src={ideapad} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
                   <span className="w-8 h-8 rounded-full bg-white flex items-center justify-center">
@@ -838,7 +839,7 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <img className="w-[172px] h-[159px]" src={curology} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
@@ -937,7 +938,7 @@ const BestSellingMonth = () => {
           </div>
 
           <div className="flex gap-[30px]">
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
                   New
@@ -1046,7 +1047,7 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex flex-col items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <img className="w-[146px] h-[163px] " src={copaSense} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">
@@ -1148,7 +1149,7 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <h4 className=" absolute right-[200px] top-3 w-14 h-7 rounded-md bg-customgreen text-white items-center flex justify-center text-xs font-inter">
                   New
@@ -1253,7 +1254,7 @@ const BestSellingMonth = () => {
                 </span>
               </span>
             </div>
-            <div className="flex flex-col w-[270px] h-[322px] gap-4">
+            <div className="flex flex-col w-[270px] h-[322px] cursor-pointer gap-4">
               <span className="relative flex items-center justify-center w-[270px] h-[250px] bg-customgray rounded-md">
                 <img className="w-[172px] h-[159px]" src={greencoat} alt="" />
                 <span className=" flex flex-col gap-2 absolute left-56 top-3">

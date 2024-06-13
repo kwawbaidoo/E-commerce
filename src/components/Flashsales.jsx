@@ -44,7 +44,7 @@ const Flashsales = () => {
          
         </div>
         <div className="flex gap-2">
-            <span className=" w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+            <span className=" w-12 h-12 hover:bg-customred cursor-pointer hover:text-white rounded-full flex items-center justify-center bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -60,7 +60,7 @@ const Flashsales = () => {
                 />
               </svg>
             </span>
-            <span className="w-12 h-12 rounded-full flex items-center justify-center bg-customgray">
+            <span className="w-12 h-12 hover:bg-customred hover:text-white cursor-pointer rounded-full flex items-center justify-center bg-customgray">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -79,7 +79,7 @@ const Flashsales = () => {
           </div>
           </div>
        <div className="flex gap-7 w-full  md:max-w-[1308px] xl:max-w-[1308px] overflow-clip ">
-       <div className="w-[270px] h-[350px]  ">
+       <div className="w-[270px] h-[350px]  cursor-pointer">
           <div className=" flex w-[270px] h-[250px] p-3 bg-customgray  justify-center rounded-md">
             <h4 className="w-14 h-7 rounded-md bg-customred text-white items-center flex justify-center text-xs font-poppins">
               -40%
@@ -179,7 +179,7 @@ const Flashsales = () => {
           </span>
          </div>
         </div>
-        <div className="w-[270px] h-[350px] ">
+        <div className="w-[270px] h-[350px] cursor-pointer ">
           <div className=" flex flex-col w-[270px] h-[250px] p-3 bg-customgray items-center  justify-between rounded-md">
            <div className="flex">
            <h4 className="w-14 h-7 rounded-md bg-customred text-white items-center flex justify-center text-xs font-poppins">
@@ -199,7 +199,7 @@ const Flashsales = () => {
               </span>
             </span>
            </div>
-            <div className="bg-black flex items-center justify-center -mb-3 w-[270px] h-10 text-white font-poppins text-base rounded-bl-lg rounded-br-lg">Add to cart</div>
+            <div className="bg-black flex items-center justify-center -mb-3 w-[270px] h-10 text-white font-poppins text-base rounded-bl-lg rounded-br-lg hover:bg-customred">Add to cart</div>
           </div>
          <div className="flex flex-col gap-2 mt-2">
          <p className="font-poppins font-medium text-base">AK-900 Wired Keyboard</p>
@@ -282,7 +282,7 @@ const Flashsales = () => {
           </span>
          </div>
         </div>
-        <div className="w-[270px] h-[350px]  ">
+        <div className="w-[270px] h-[350px] cursor-pointer ">
           <div className=" flex w-[270px] h-[250px] p-3 bg-customgray  justify-center rounded-md">
             <h4 className="w-14 h-7 rounded-md bg-customred text-white items-center flex justify-center text-xs font-poppins">
               -30%
@@ -382,7 +382,7 @@ const Flashsales = () => {
           </span>
          </div>
         </div>
-        <div className="w-[270px] h-[350px]  ">
+        <div className="w-[270px] h-[350px]cursor-pointer cursor-pointer  ">
           <div className=" flex w-[270px] h-[250px] p-3 bg-customgray  justify-center rounded-md">
             <h4 className="w-14 h-7 rounded-md bg-customred text-white items-center flex justify-center text-xs font-poppins">
               -25%
@@ -482,7 +482,7 @@ const Flashsales = () => {
           </span>
          </div>
         </div>
-        <div className="w-[270px] h-[350px]  ">
+        <div className="w-[270px] h-[350px] cursor-pointer  ">
           <div className=" flex w-[270px] h-[250px] p-3 bg-customgray  justify-center rounded-md">
             <h4 className="w-14 h-7 rounded-md bg-customred text-white items-center flex justify-center text-xs font-poppins">
               -25%
