@@ -6,17 +6,17 @@ const Contact = () => {
           <h3>Home / Contact</h3>
         </div>
         <div className="flex gap-8">
-          <div className="flex flex-col w-[340px] h-[4567px] bg-white rounded-md px-9 py-10">
+          <div className="flex flex-col w-[340px] h-[4567px] bg-white rounded-md px-9 py-10 shadow-lg">
             <div>
-              <span>
-                <h3>
+              <span className="flex flex-col gap-6">
+                <h3 className="flex gap-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="size-6 w-10 h-10 rounded-full items-center justify-center"
+                    className="size-5 w-10 h-10 rounded-full bg-customred items-center justify-center"
                   >
                     <path
                       strokeLinecap="round"
@@ -26,7 +26,37 @@ const Contact = () => {
                   </svg>
                   Call to us
                 </h3>
+
+                <span className="flex flex-col gap-4">
+                  <h3>We are available 24/7, 7 days a week.</h3>
+                  <h3>Phone: +233 201236413</h3>
+                </span>
               </span>
+              <hr className="border" />
+              <div className="flex flex-col gap-6">
+                <h3 className="flex gap-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-5 w-10 h-10 bg-customred rounded-full flex items-center justify-center"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+                  Write to us
+                </h3>
+                <div className="flex flex-col gap-4">
+                    <h4>Fill out our form and we will contact you within 24 hours.</h4>
+                    <h4>Emails: customer@exclusive.com</h4>
+                    <h4>Emails: support@exclusive.com</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
