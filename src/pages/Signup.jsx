@@ -5,6 +5,7 @@ const Signup =()=>{
     return(
         <div>
             <Navigation/>
+            sign up
         </div>
     )
 }

@@ -3,6 +3,9 @@ import cart from "../assets/images/Cart1.png";
 import React from "react";
 import { Route, Routes, Link } from 'react-router-dom';
 import Home from "../pages/Home";
+import Signup from "../pages/Signup";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
 
 
 const Navigation = () => {
@@ -14,7 +17,7 @@ const Navigation = () => {
 
           <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <Link to="/" className="hover:underline" href="">
+              <Link to="/home" className="hover:underline" href="">
                 Home
               </Link>
             </li>
@@ -99,7 +102,10 @@ const Navigation = () => {
 
 
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/Signup/*" element={<Signup/>}/>
+        <Route path="/about" element={<About/>}/>
       </Routes>
     </div>
   );
