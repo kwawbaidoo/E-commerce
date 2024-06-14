@@ -1,6 +1,9 @@
 import heart from "../assets/images/heart.png";
 import cart from "../assets/images/Cart1.png";
 import React from "react";
+import { Route, Routes, Link } from 'react-router-dom';
+import Home from "../pages/Home";
+
 
 const Navigation = () => {
   return (
@@ -11,24 +14,24 @@ const Navigation = () => {
 
           <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <a className="hover:underline" href="">
+              <Link to="/" className="hover:underline" href="">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:underline" href="">
+              <Link to="/contact" className="hover:underline" href="">
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:underline" href="">
+              <Link to="/about" className="hover:underline" href="">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="hover:underline" href="">
+              <Link to="/Signup" className="hover:underline" href="">
                 Sign Up
-              </a>
+              </Link>
             </li>
           </ul>
         </span>
@@ -93,6 +96,11 @@ const Navigation = () => {
         </div>
       </div>
       <hr className=" w-full mt-4" />
+
+
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+      </Routes>
     </div>
   );
 };
