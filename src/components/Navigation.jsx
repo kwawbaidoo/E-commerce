@@ -6,18 +6,20 @@ import Home from "../pages/Home";
 import Signup from "../pages/Signup";
 import Contact from "../pages/Contact";
 import About from "../pages/About";
+import Top from "./Top";
 
 
 const Navigation = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center mt-10">
+      <Top/>
       <div className="flex md:max-w-[1170px] xl:max-w-[1170px]  gap-36 items-center">
         <span className="flex gap-48 w-full xl:max-w-[675px] ">
           <h3 className="font-inter font-semibold text-2xl">Exclusive</h3>
 
           <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <Link to="/home" className="hover:underline" href="">
+              <Link to="/" className="hover:underline" href="">
                 Home
               </Link>
             </li>
@@ -102,7 +104,7 @@ const Navigation = () => {
 
 
       <Routes>
-        <Route path="/home" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/Signup/*" element={<Signup/>}/>
         <Route path="/about" element={<About/>}/>
