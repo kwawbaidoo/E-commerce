@@ -16,7 +16,7 @@ const Signup = () => {
             <h3 className="font-inter font-medium text-4xl text-black">
               Create an account
             </h3>
-            <h3 className="font-poppins font-normal text-base">
+            <h3 className="font-poppins font-light text-base">
               Enter your details below
             </h3>
           </span>
@@ -48,9 +48,9 @@ const Signup = () => {
             </button>
           </span>
           <span className="flex gap-4 items-center justify-center">
-          <h3 className="font-popins font-normal text-base">Already have an acoount?</h3>
-          <h3 className="font-poppins font-medium text-base">
-            <Link to="/">Log in</Link>
+          <h3 className="font-popins font-light text-base">Already have an acoount?</h3>
+          <h3 className="font-poppins font-medium text-base hover:text-customred hover:underline-offset-2">
+            <Link to="/login">Log in</Link>
             </h3>
 
           </span>

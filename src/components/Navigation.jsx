@@ -8,8 +8,8 @@ import Top from "./Top";
 const Navigation = () => {
   return (
     <>
-    <div className="w-full flex flex-col items-center justify-center mt-10">
-      <Top/>
+    <Top/>
+    <div className="w-full flex flex-col items-center justify-center p-8">
       <div className="flex md:max-w-[1170px] xl:max-w-[1170px]  gap-36 items-center">
         <span className="flex gap-48 w-full xl:max-w-[675px] ">
           <h3 className="font-inter font-semibold text-2xl">Exclusive</h3>
