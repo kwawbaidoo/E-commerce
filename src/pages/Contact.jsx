@@ -7,7 +7,7 @@ const Contact = () => {
         </div>
         <div className="flex gap-8">
         <div className="flex gap-8">
-          <div className="flex flex-col w-[340px] h-[4567px] bg-white rounded-md px-9 py-10 shadow-lg">
+          <div className="flex flex-col w-[340px] h-[457px] bg-white rounded-md items-center justify-center px-10 py-10 border border-red-200 shadow-lg">
             <div className="flex flex-col gap-8">
               <span className="flex flex-col gap-6 border">
                 <h3 className="flex gap-4 items-center ">
