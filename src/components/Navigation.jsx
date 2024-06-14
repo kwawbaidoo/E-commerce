@@ -1,5 +1,6 @@
 import heart from "../assets/images/heart.png";
 import cart from "../assets/images/Cart1.png";
+import React from "react";
 
 const Navigation = () => {
   return (
