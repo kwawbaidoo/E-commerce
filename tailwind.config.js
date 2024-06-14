@@ -16,7 +16,8 @@ export default {
         customyellow:'#EEFF61',
         forestgreen: '#184A48',
         customblack: '#0D0D0D',
-        customblur: '#D9D9D9'
+        customblur: '#D9D9D9',
+        customseablue: '#CBE4E8',
       },
       fontFamily:{
         poppins:['Poppins'],
