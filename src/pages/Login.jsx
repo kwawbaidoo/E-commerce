@@ -10,7 +10,7 @@ const Login =()=>{
         </div>
         <div className="w-[371px] h-[530px] flex flex-col gap-12">
           <span className="flex flex-col gap-6">
-            <h3 className="font-inter font-medium text-4xl text-black">
+            <h3 className="font-inter font-mediLum text-4xl leading-3 text-black">
               Log in to Exclusive
             </h3>
             <h3 className="font-poppins font-normal text-base">
@@ -34,14 +34,7 @@ const Login =()=>{
             <button className="flex items-center justify-center w-36 bg-customred h-14 rounded-md text-white text-base font-poppins font-medium">
               Log in
             </button>
-            <h4 className="text-customred font-poppins text-base font-light">Forget Password</h4>
-          </span>
-          <span className="flex gap-4 items-center justify-center">
-          <h3 className="font-popins font-normal text-base">Already have an acoount?</h3>
-          <h3 className="font-poppins font-medium text-base">
-            <Link to="/login">Log in</Link>
-            </h3>
-
+            <h4 className="text-customred font-poppins text-base font-light"><Link to="">Forget Password</Link></h4>
           </span>
         </div>
       </div>
