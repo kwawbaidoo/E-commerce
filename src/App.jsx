@@ -1,16 +1,29 @@
-import { useState } from 'react';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
 
-import Home from './pages/Home';
+import Home from "./pages/Home";
+import Navigation from "./components/Navigation";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Signup from "./pages/Signup";
+import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-   <Home/>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,10 +1,9 @@
 import Navigation from "../components/Navigation";
-
+import React from "react";
 
 const Signup =()=>{
     return(
         <div>
-            <Navigation/>
             sign up
         </div>
     )

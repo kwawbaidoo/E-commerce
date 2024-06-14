@@ -1,3 +1,4 @@
+import React from "react";
 import BestSellingMonth from "../components/BestSellingMonth";
 import Category from "../components/Category";
 import Flashsales from "../components/Flashsales";
@@ -7,12 +8,11 @@ import Navigation from "../components/Navigation";
 const Home = () => {
   return (
     <div>
-      <Navigation />
       <Hero />
       <Flashsales />
       <Category />
       <BestSellingMonth />
-      <Footer />
+      
     </div>
   );
 };

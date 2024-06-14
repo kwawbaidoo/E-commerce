@@ -2,15 +2,12 @@ import heart from "../assets/images/heart.png";
 import cart from "../assets/images/Cart1.png";
 import React from "react";
 import { Route, Routes, Link } from 'react-router-dom';
-import Home from "../pages/Home";
-import Signup from "../pages/Signup";
-import Contact from "../pages/Contact";
-import About from "../pages/About";
 import Top from "./Top";
 
 
 const Navigation = () => {
   return (
+    <>
     <div className="w-full flex flex-col items-center justify-center mt-10">
       <Top/>
       <div className="flex md:max-w-[1170px] xl:max-w-[1170px]  gap-36 items-center">
@@ -19,22 +16,22 @@ const Navigation = () => {
 
           <ul className="flex gap-12 font-poppins text-base items-center">
             <li>
-              <Link to="/" className="hover:underline" href="">
+              <Link to="/" className="hover:underline" >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:underline" href="">
+              <Link to="/contact" className="hover:underline" >
                 Contact
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:underline" href="">
+              <Link to="/about" className="hover:underline" >
                 About
               </Link>
             </li>
             <li>
-              <Link to="/Signup" className="hover:underline" href="">
+              <Link to="/signup" className="hover:underline" >
                 Sign Up
               </Link>
             </li>
@@ -103,13 +100,9 @@ const Navigation = () => {
       <hr className=" w-full mt-4" />
 
 
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/Signup/*" element={<Signup/>}/>
-        <Route path="/about" element={<About/>}/>
-      </Routes>
+      
     </div>
+    </>
   );
 };
 
