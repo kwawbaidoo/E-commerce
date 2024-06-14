@@ -12,7 +12,6 @@ const Home = () => {
       <Flashsales />
       <Category />
       <BestSellingMonth />
-      
     </div>
   );
 };
