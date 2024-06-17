@@ -1,18 +1,26 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 const Contact = () => {
   const [hasText, setHasText] = useState(false);
+  const [hasEmailText, setEmailHasText] = useState(false);
+  const [hasPhoneText, setPhoneHasText] = useState(false);
+
+  const location = useLocation();
+  let path = location.pathname.slice(1);
+  let paths = path.charAt(0).toUpperCase() + path.slice(1);
+
 
   return (
     <div className="flex items-center justify-center">
       <div className="flex flex-col xl:max-w-[1170px] lg:max-w-[1170px] md:max-w-[1170px] gap-20">
         <div>
-          <h3>Home / Contact</h3>
+          <h3>Home / <span className="text-customred" >{paths}</span></h3>
         </div>
         <div className="flex gap-8">
           <div className="flex gap-8">
-            <div className="flex flex-col w-[340px] h-[457px] bg-white rounded-md items-center justify-center px-10 py-10 border border-red-200 shadow-lg">
+            <div className="flex flex-col w-[340px] h-[457px] bg-white rounded-md items-center justify-center px-10 py-10   shadow-lg">
               <div className="flex flex-col gap-8">
-                <span className="flex flex-col gap-6 border">
+                <span className="flex flex-col gap-6 ">
                   <h3 className="flex gap-4 items-center ">
                     <span className="flex w-10 h-10 rounded-full bg-customred items-center justify-center">
                       <svg
@@ -39,7 +47,7 @@ const Contact = () => {
                   </span>
                 </span>
                 <hr className="border" />
-                <div className="flex flex-col gap-6 border">
+                <div className="flex flex-col gap-6 ">
                   <h3 className="flex gap-4 items-center">
                     <span className="flex w-10 h-10 rounded-full bg-customred items-center justify-center">
                       <svg
@@ -71,14 +79,14 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="w-[800px] h-[457px] flex py-10 px-8 shadow-md">
+          <div className="w-[800px] h-[457px] flex py-10 px-8 shadow-md gap-8 flex-col">
             
-           <div className=" flex gap-4 border">
+           <div className=" flex gap-4 ">
            <div className="relative w-[235px]">
               <label
                 htmlFor="name"
                 className={`absolute left-4 top-6 transform -translate-y-1/2 text-gray-500 pointer-events-none transition-all ${
-                  hasText ? "-top-2 den text-xs" : ""
+                  hasText ? "-top-2  text-xs" : ""
                 }`}
               >
                 Your Name<span className="text-red-500">*</span>
@@ -96,7 +104,7 @@ const Contact = () => {
               <label
                 htmlFor="email"
                 className={`absolute left-4 top-6 transform -translate-y-1/2 text-gray-500 pointer-events-none transition-all ${
-                  hasText ? "-top-2 den text-xs" : ""
+                  hasEmailText ? "-top-2  text-xs" : ""
                 }`}
               >
                 Your Email<span className="text-red-500">*</span>
@@ -106,7 +114,7 @@ const Contact = () => {
                 className="w-full h-[50px] bg-customgray pl-4 outline-none pt-4 pb-1"
                 type="email"
                 placeholder=" "
-                onChange={(e) => setHasText(e.target.value !== "")}
+                onChange={(e) => setEmailHasText(e.target.value !== "")}
               />
             </div>
 
@@ -114,7 +122,7 @@ const Contact = () => {
               <label
                 htmlFor="phone"
                 className={`absolute left-4 top-6 transform -translate-y-1/2 text-gray-500 pointer-events-none transition-all ${
-                  hasText ? "-top-2 den text-xs" : ""
+                  hasPhoneText ? "-top-2  text-xs" : ""
                 }`}
               >
                 Your Phone<span className="text-red-500">*</span>
@@ -124,11 +132,16 @@ const Contact = () => {
                 className="w-full h-[50px] bg-customgray pl-4 outline-none pt-4 pb-1"
                 type="phone"
                 placeholder=" "
-                onChange={(e) => setHasText(e.target.value !== "")}
+                onChange={(e) => setPhoneHasText(e.target.value !== "")}
               />
             </div>
            </div>
 
+                <textarea className="w-[737px] h-[207px] p-4 bg-customgray outline-none" name="" id="" placeholder="Your Message"></textarea>
+
+                <div className="flex justify-end">
+                  <button className="bg-customred px-12 py-4 rounded-md text-white">Send Message</button>
+                </div>
           </div>
         </div>
       </div>
