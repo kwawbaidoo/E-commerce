@@ -1,6 +1,6 @@
 import React from "react";
 import sideimage from "..//assets/images/SideImage.png";
-import kwawImage from "../assets/images/kwaw.jpg";
+import kwawImage from "../assets/images/kwaw.png";
 import { useLocation } from "react-router-dom";
 import shop from "../assets/icons/shop.png";
 import Sale from "../assets/icons/Sale.png";
@@ -15,6 +15,12 @@ const About = () => {
     { icon: Shoppingbag, number: 5, details: "Customers active on our site" },
     { icon: moneybag, number: 5, details: "Anual gross sale in our site" },
   ];
+
+  const team =[
+    {image : richmond, name: "Richmond Forkuo Afram", role:"Product Designer",linkOne:"link1", linkTwo:"link2", linkThree:"link3"},
+    {image : kwawImage, name: "Francis Baidoo", role:"Managing Director",linkOne:"link1", linkTwo:"link2", linkThree:"link3"}
+
+  ]
 
 //   <i class='bx bx-dollar'></i>
 //   <i class='bx bx-store-alt' ></i>
@@ -57,12 +63,12 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full flex items-center justify-center border">
+      <div className="w-full flex items-center justify-center mt-36">
       <div className="w-full xl:max-w-[1170px] md:max-[1170px] lg:max-w-[1170px] flex gap-8 ">
             
             {data.map((item, key)=>(
 
-            <div key={key} className="border w-[270px] h-[230px] rounded-[4px] flex items-center justify-center hover:bg-customred">
+            <div key={key} className="border w-[270px] h-[230px] rounded-[4px] flex items-center justify-center hover:bg-customred hover:text-white">
                 <div className="flex flex-col gap-6 items-center justify-center">
                 <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
                     <span className="flex w-14 h-14 rounded-full bg-black hover:bg-white items-center justify-center">
@@ -79,6 +85,32 @@ const About = () => {
             </div>
             ))}
       </div>
+
+     
+
+      </div>
+      <div className="flex mt-36 gap-20 w-full items-center justify-center border">
+        <div className="flex flex-col w-[236px] h-[564px] border">
+
+                <div className="w-[236px] h-[321px] bg-teambg rounded-lg shadow-lg">
+                <img className="w-[236px] h-[321px]" src={kwawImage} alt="" />
+                </div>
+        <span className="flex flex-col gap-4">
+            <span className="flex flex-col gap-2">
+            <h3>name</h3>
+            <h3>Role</h3>
+            </span>
+            <span className="flex gap-4">
+                <a href=""><img src="" alt="" /></a>
+                <a href=""><img src="" alt="" /></a>
+                <a href=""><img src="" alt="" /></a>
+            </span>
+        </span>
+            
+        </div>
+
+        
+       
       </div>
     </div>
   );

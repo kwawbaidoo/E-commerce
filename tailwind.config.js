@@ -18,6 +18,7 @@ export default {
         customblack: '#0D0D0D',
         customblur: '#D9D9D9',
         customseablue: '#CBE4E8',
+        teambg: '#e2e1e1',
       },
       fontFamily:{
         poppins:['Poppins'],
