@@ -3,16 +3,18 @@ import sideimage from "..//assets/images/SideImage.png";
 import kwawImage from "../assets/images/kwaw.png";
 import { useLocation } from "react-router-dom";
 import shop from "../assets/icons/shop.png";
-import Sale from "../assets/icons/Sale.png";
 import Shoppingbag from "../assets/icons/Shopping bag.png";
 import moneybag from "../assets/icons/Moneybag.png";
 import richmond from "../assets/images/Richmond.png";
-import headphone from "../assets/images/Headphone.png";
+import headphone from "../assets/images/Icon-Customer service.png";
+import delivery from "../assets/images/icon-delivery.png";
+import secure from "../assets/images/Icon-secure.png";
+import sale from "../assets/images/dollar.png";
 
 const About = () => {
   const data = [
     { icon: shop, number: 5, details: "Sallers active on our site" },
-    { icon: Sale, number: 33, details: "Monthly monthly Sale" },
+    { icon: sale, number: 33, details: "Monthly monthly Sale" },
     { icon: Shoppingbag, number: 5, details: "Customers active on our site" },
     { icon: moneybag, number: 5, details: "Anual gross sale in our site" },
   ];
@@ -67,7 +69,7 @@ const About = () => {
                 shopping makterplace with an active presense in Bangladesh.
                 Supported by wide range of tailored marketing, data and service
                 solutions, Exclusive has 10,500 sallers and 300 brands and
-                serves 3 millioons customers across the region.{" "}
+                serves 3 millioons customers across the region.
               </p>
               <p>
                 Exclusive has more than 1 Million products to offer, growing at
@@ -88,12 +90,12 @@ const About = () => {
           {data.map((item, key) => (
             <div
               key={key}
-              className="border w-[270px] h-[230px] rounded-[4px] flex items-center justify-center hover:bg-customred hover:text-white"
+              className="border w-[270px] h-[230px] rounded-md flex items-center justify-center hover:bg-customred hover:text-white"
             >
               <div className="flex flex-col gap-6 items-center justify-center">
                 <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
-                  <span className="flex w-14 h-14 rounded-full bg-black hover:bg-white items-center justify-center">
-                    <img src={item.icon} alt="" />
+                  <span className="flex w-14 h-14 rounded-full bg-black items-center justify-center">
+                    <img className="w-6" src={item.icon} alt="" />
                   </span>
                 </span>
 
@@ -149,7 +151,7 @@ const About = () => {
             <div className="flex items-center justify-center flex-col gap-6 ">
                 <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
                     <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
-                        <img className="w-10 h-10 rounded-full" src={iconDelivery} alt="" />
+                        <img className="w-10 h-10 rounded-full" src={delivery} alt="" />
                     </span>
                 </span>
                 <div className="flex flex-col gap-2 items-center justify-center">
@@ -160,7 +162,7 @@ const About = () => {
             <div className="flex items-center justify-center flex-col gap-6">
                 <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
                     <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
-                        <img className="w-10 h-10 rounded-full" src={iconCustomerService} alt="" />
+                        <img className="w-10 h-10 rounded-full" src={headphone} alt="" />
                     </span>
                 </span>
                 <div className="flex flex-col gap-2 items-center justify-center">
@@ -171,7 +173,7 @@ const About = () => {
             <div className="flex items-center justify-center flex-col gap-6 ">
                 <span className="w-20 h-20 rounded-full bg-gray-300 flex items-center justify-center">
                     <span className=" w-16 h-16 rounded-full bg-customblack flex items-center justify-center">
-                        <img className="w-10 h-10 rounded-full" src={iconSecure} alt="" />
+                        <img className="w-10 h-10 rounded-full" src={secure} alt="" />
                     </span>
                 </span>
                 <div className="flex flex-col items-center justify-center gap-2">
